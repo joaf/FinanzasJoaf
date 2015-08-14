@@ -12,8 +12,8 @@ namespace DAL
 
     public class Conexion
     {
-      //   SqlConnection sqlConexion = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=FinanzasProyecto;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False");
-       SqlConnection sqlConexion = new SqlConnection(@"workstation id=finanzas.mssql.somee.com;packet size=4096;user id=ariel017_SQLLogin_1;pwd=b29f3a18my;data source=finanzas.mssql.somee.com;persist security info=False;initial catalog=finanzas");
+     ///  SqlConnection sqlConexion = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=FinanzasProyecto;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False");
+        SqlConnection sqlConexion = new SqlConnection(@"workstation id=finanzas.mssql.somee.com;packet size=4096;user id=ariel017_SQLLogin_1;pwd=b29f3a18my;data source=finanzas.mssql.somee.com;persist security info=False;initial catalog=finanzas");
 
         /// <summary>
         /// para ejecutar todos los codigos
